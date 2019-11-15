@@ -25,9 +25,9 @@ int main(void){
     int vis[MAX]={0};
     printf("Enter the no.of nodes: ");
     scanf("%d",&n);
+    printf("\nEnter the elements: ");
     for(i=0;i<n;++i){
-        printf("\nEnter the elements: ");
-        scanf("%d",&A[i]);
+	scanf("%d",&A[i]);
     }
     printf("\nEnter the adjacency matrix:\n");
     for(i=0;i<n;++i)
