@@ -55,6 +55,6 @@ int main(void){
 		printf("\n");
 	}
         else
-	        printf("\nInavalid choice");
+	        printf("\nInvalid choice");
     }
 }
