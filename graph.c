@@ -17,7 +17,7 @@ void BFS(int i,int vis[]){
         Q[++r]=A[j];
     if(f<=r){
         vis[f]=1;
-        BFS(Q[f++],vis);
+        BFS(f++,vis);
     }
 }
 int main(void){
