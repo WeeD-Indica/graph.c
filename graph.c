@@ -35,7 +35,7 @@ int main(void){
 	        scanf("%d",&MAT[i][j]);
         }
     while(1){
-        printf("1.DFS\n2.BFS\n\3.EXIT\n");
+        printf("1.DFS\n2.BFS\n3.EXIT\n");
         scanf("%d",&ch);
         for(i=0;i<n;++i)
 	        vis[i]=0;
